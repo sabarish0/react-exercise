@@ -1,0 +1,20 @@
+.cards {
+    padding: 7% 25%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 50px;
+}
+.card {
+    background-color: white;
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 5px solid;
+    animation: blink 1s;
+    animation-iteration-count: 9;
+    
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 200%;
+}
