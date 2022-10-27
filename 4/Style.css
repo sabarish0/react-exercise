@@ -1,0 +1,58 @@
+.Block{
+    background-color: black;
+    color: antiquewhite;
+    animation: blink 4s steps(7, end) infinite, 10s infinite alternate;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+      color: blue;
+    }
+    10% {
+        opacity: 1;
+        color: #8e44ad;
+      }
+      20% {
+        opacity: 0;
+        color: #1abc9c;
+      }
+      
+      30% {
+        opacity: 0;
+        color: #d35400;
+      }
+      
+      40% {
+        opacity: 1;
+        color: rgb(255, 25, 0);
+      }
+    50% {
+        color: #34495e;
+      opacity: 1;
+    }
+    60% {
+        opacity: 0;
+        color: rgb(0, 255, 157);
+      }
+      
+      70% {
+        opacity: 0;
+        color: #2980b9;
+      }
+      80% {
+        opacity: 1;
+        color: #f1c40f;
+      }
+      
+      90% {
+        opacity: 1;
+        color: #2980b9;
+      }
+      
+    100% {
+        color: pink;
+      opacity: 0.5;
+    }
+  }
+  
